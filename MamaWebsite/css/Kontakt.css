@@ -1,0 +1,46 @@
+#header {
+    float: center;
+    width: 100½
+}
+
+.logo {
+    display: block;
+    margin-top: 10px;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: grey;
+  }
+
+#navbar a {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    float: left;
+    display: block;
+    color: rgb(160,253,80);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+  }
+
+#navbar a.active {
+    background-color: rgb(160,253,80);
+    color: grey;
+  }
+
+#navbar a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
